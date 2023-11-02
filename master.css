@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 0 8rem;
+  background-color: #1f2937;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 1rem;
+  font-weight: bolder;
+}
+
+.header ul {
+  display: flex;
+  margin: 1rem;
+}
+.header ul li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+section {
+  padding: 0 13rem;
+  background-color: #1f2937;
+  color: white;
+}
+.hero {
+  display: flex;
+  padding: 5rem 0;
+}
+.hero-content {
+  width: 50%;
+  align-self: center;
+  justify-content: center;
+}
+.hero-content h1 {
+  font-weight: bolder;
+  margin: 1rem 0;
+  font-size: 34px;
+}
+.hero-content p {
+  margin: 1rem 0;
+  font-size: 14px;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 50%;
+  background-color: gray;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0.3rem;
+  width: 6rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature h2 {
+  margin: 3rem 0;
+}
+.feature ul {
+  display: flex;
+  align-items: center;
+  margin: 0 5rem;
+}
+.feature ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.feature ul li .box {
+  border: 1px solid #3882f6;
+  width: 80%;
+  height: 14rem;
+  border-radius: 25px;
+}
